@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+html,
+body {
+  font-size: 10px;
+  height: 100%;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.box header {
+  width: 100%;
+  background-color: #72cadd;
+  height: 5rem;
+  line-height: 5rem;
+  padding: 0 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.box header > img {
+  margin-top: 0.7rem;
+  width: 3rem;
+  height: 3.5rem;
+}
+.box header .title {
+  flex: 1;
+  padding-left: 30px;
+  font-size: 2.5rem;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.box main {
+  width: 100%;
+}
+.box main .top {
+  height: 5.6rem;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 0 1rem;
+  line-height: 5.6rem;
+  font-size: 2.1rem;
+  background-color: 2;
+  color: #505050;
+  border-bottom: 1px solid #999;
+}
+.box main dl {
+  font-size: 1.6rem;
+  width: 100%;
+  height: 5rem ;
+  color: gray;
+  display: flex;
+  line-height: 5rem;
+  padding: 0 1rem;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-between;
+  flex-wrap: wrap;
+}
+.box main dl dt {
+  width: 40%;
+  height: 100%;
+  border-bottom: 1px solid #c0bdbd;
+}
+.box main dl dd {
+  width: 60%;
+  height: 100%;
+  border-bottom: 1px solid #c0bdbd;
+}
+.box main .work {
+  height: 10rem ;
+}

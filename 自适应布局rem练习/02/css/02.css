@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+html,
+body {
+  font-size: 10px;
+  height: 100%;
+  background-color: #eeeeee;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  /* 内容区域 */
+}
+.box > header {
+  width: 100%;
+  height: 4rem;
+  background-color: #e6071b;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  line-height: 4rem;
+  padding: 0 0.5rem;
+}
+.box > header > img {
+  width: 3rem;
+  height: 100%;
+}
+.box > header > div {
+  flex: 1;
+  font-size: 1.7rem;
+  text-align: center;
+  color: snow;
+  text-indent: -3rem;
+}
+.box > section {
+  width: 100%;
+}
+.box > section > ul {
+  width: 100%;
+}
+.box > section > ul > li {
+  background-color: #fff;
+  border-bottom: 1px solid #d1d1d1;
+  height: 4rem;
+  line-height: 4rem;
+  padding: 0 1rem;
+  width: 100%;
+  font-size: 1.6rem;
+}
+.box > section > ul > .clear {
+  margin-bottom: 1rem;
+  border-bottom: none;
+}
+.box > footer {
+  margin-top: 1rem;
+  width: 100%;
+  height: 4rem;
+  line-height: 4rem;
+  background-color: #fff;
+}
+.box > footer > div {
+  font-size: 1.6rem;
+  color: #e6071b;
+  text-align: center;
+}

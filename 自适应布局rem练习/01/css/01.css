@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+html,
+body {
+  height: 100%;
+  font-size: 10px;
+}
+.box {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: space-between;
+  /* 头部 */
+  /* 应用名称 top部分 */
+  /* app内容区域  */
+}
+.box header {
+  width: 100%;
+  height: 5rem;
+  box-sizing: border-box;
+  padding: 1rem 1.6rem;
+  line-height: 3rem;
+  display: flex;
+  flex-direction: row;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #e2e2e2;
+  justify-content: flex-start;
+}
+.box header > div:nth-of-type(1) {
+  width: 2rem;
+  height: 3rem;
+  box-sizing: border-box;
+  line-height: 3rem;
+}
+.box header > div:nth-of-type(1) > img {
+  margin-top: 15%;
+  height: 70%;
+}
+.box header > div:nth-of-type(2) {
+  font-size: 1.8rem;
+  width: 60%;
+  flex: 1;
+  color: #0077ff;
+  text-indent: 0.8rem;
+}
+.box .top {
+  width: 100%;
+  height: 8rem;
+  box-sizing: border-box;
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #e2e2e2;
+  justify-content: space-between;
+}
+.box .top > img {
+  height: 100%;
+}
+.box .top .title {
+  flex: 1;
+  margin-left: 1rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: #333;
+}
+.box .top .title > span {
+  font-weight: 600;
+  font-size: 12px;
+}
+.box .top > .btn {
+  width: 5rem;
+  height: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.box .top > .btn > button {
+  width: 5rem;
+  box-sizing: border-box;
+  height: 3rem;
+  font-size: 1.2rem;
+  border: 1px solid #0077ff;
+  outline: none;
+  border-radius: 5px;
+  color: #0077ff;
+  text-decoration: underline;
+}
+.box .content {
+  flex: 1;
+  width: 100%;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+.box .content .title {
+  height: 3.6rem;
+  width: 100%;
+  font-size: 1.5rem;
+  line-height: 3.6rem;
+}
+.box .content .text {
+  color: #666;
+  font-size: 1.2rem;
+}
+.box > footer {
+  width: 100%;
+  height: 5.5rem;
+  box-sizing: border-box;
+  padding-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: space-around;
+}
+.box > footer > div {
+  width: 5rem;
+  font-size: 1.2rem;
+  text-align: center;
+  color: #666;
+  flex: 1;
+}
+.box > footer > div > img {
+  padding: 0 1rem;
+  width: 3rem;
+  height: 3rem;
+}
+.box > footer > div:nth-of-type(1) {
+  color: #0077ff;
+}
